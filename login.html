@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+  <h2>로그인</h2>
+  <br>
+  <form action="#" method="post">
+    <input type="radio" name="member" value="1" checked>회원
+    <input type="radio" name="member" value="2">비회원(주문조회)
+    <br>
+    <div class="menu">
+      <div>
+        <div>
+          <input type="text" name="userId" id="userId" size="20" maxlength="20" placeholder="아이디" required><br>
+          <input type="text" name="userPW" id="userPW" size="20" maxlength="20" placeholder="비밀번호" required>
+        </div>
+      </div>
+      <div class="login">
+        <span>로그인</span>
+      </div>
+    </div>
+    <div class="option">
+      <div class="option1">
+        <input type="checkbox" name="saveId" value="1">아이디저장
+      </div>
+      <div class="option1">
+        <a href="#">OTP 로그인</a>
+        <input type="submit" value="?">
+      </div>
+    </div>
+    <br>
+    <div class="button">
+      <input type="submit" value="회원가입">
+      <input type="submit" value="아이디찾기">
+      <input type="submit" value="비밀번호찾기">
+    </div>
+  </form>
+</body>
+
+</html>
