@@ -14,11 +14,36 @@
     <!-- header -->
     <header>
         <ul id="ul1">
-            <li id="title">programmers</li>
-            <li>교육</li>
-            <li>채용</li>
-            <li>코딩테스트</li>
-            <li>인증시험</li>
+            <li id="title">
+                <a href="">programmers</a>
+            </li>
+            <li id="programmers" onmouseover="displayMenu(this.id)">
+                <a href="https://school.programmers.co.kr/">교육</a>
+                <div id="programmersMenu" style="display: none;" onmouseout="hiddenMenu(this.id)">
+                    <a href="https://school.programmers.co.kr/learn">강의</a>
+                    <a href="https://school.programmers.co.kr/learn/KDT">국비지원</a>
+                    <a href="https://school.programmers.co.kr/my-courses/learning">MY스쿨</a>
+                    <a href="https://school.programmers.co.kr/apply-lecturer">강사신청</a>
+                </div>
+            </li>
+            <li id="programmers1" onmouseover="displayMenu(this.id)">
+                <a href="https://career.programmers.co.kr/">채용</a>
+                <div id="programmers1Menu" style="display: none;" onmouseout="hiddenMenu(this.id)">
+                    <a href="https://career.programmers.co.kr/job">채용공고</a>
+                    <a href="https://career.programmers.co.kr/competitions">채용프로그램</a>
+                    <a href="https://career.programmers.co.kr/top_programmers/introduce">탑프로그래머스</a>
+                    <a href="https://career.programmers.co.kr/resumes">이력서</a>
+                </div>
+            </li>
+            <li id="programmers2" onmouseover="displayMenu(this.id)">
+                <a href="https://school.programmers.co.kr/learn/challenges?order=recent">코딩테스트</a>
+                <div id="programmers2Menu" style="display: none;" onmouseout="hiddenMenu(this.id)">
+                    <a href="https://school.programmers.co.kr/learn/challenges?order=recent">코딩테스트문제</a>
+                    <a href="https://school.programmers.co.kr/skill_checks">스킬체크</a>
+                    <a href="https://community.programmers.co.kr/lounge/1">개발자라운지</a>
+                </div>
+            </li>
+            <li><a href="https://certi.programmers.co.kr/">인증시험</a></li>
         </ul>
         <div>&nbsp;</div>
         <ul id="ul2">
