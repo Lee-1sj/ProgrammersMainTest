@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/9cbb542be5.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onload="call_js()">
     <!-- header -->
     <header>
         <ul id="ul1">
@@ -52,7 +52,26 @@
         </ul>
     </header>
     <!-- section -->
-    <section id="section1">section1</section>
+    <section id="section1">
+        <div class="slideshow">
+            <div class="slideshow_slides">
+                <a href="https://programmers.co.kr/" target="_blank"><img src="./img/slide-1.jpg" alt="slide1"></a>
+                <a href="https://programmers.co.kr/" target="_blank"><img src="./img/slide-2.jpg" alt="slide2"></a>
+                <a href="https://programmers.co.kr/" target="_blank"><img src="./img/slide-3.jpg" alt="slide3"></a>
+                <a href="https://programmers.co.kr/" target="_blank"><img src="./img/slide-4.jpg" alt="slide4"></a>
+            </div>
+            <div class="slideshow_nav">
+                <a href="" class="prev"><i class="fa-solid fa-angle-left"></i></a>
+                <a href="" class="next"><i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div class="indicator">
+                <a href="" class="active"><i class="fa-solid fa-circle-notch"></i></a>
+                <a href=""><i class="fa-solid fa-circle-notch"></i></a>
+                <a href=""><i class="fa-solid fa-circle-notch"></i></a>
+                <a href=""><i class="fa-solid fa-circle-notch"></i></a>
+            </div>
+        </div>
+    </section>
     <nav>
         <a href="https://school.programmers.co.kr/learn/KDT">
             <div>
